@@ -21,7 +21,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { RegistrationType } from "./Forms/RegistrationType.jsx";
 import { RegistrationDonor } from "./Forms/RegistrationDonor.jsx";
-// import RegistrationBeneficiary from "./Forms/RegistrationBeneficiary";
+import { RegistrationBeneficiary} from "./Forms/RegistrationBeneficiary";
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
       <Routes>
         <Route path="/" element={<RegistrationType />} />
         <Route path="/register/donor" element={<RegistrationDonor />} />
-        {/* <Route path="/register/beneficiary" element={<RegistrationBeneficiary />} /> */}
+        <Route path="/register/beneficiary" element={<RegistrationBeneficiary />} />
       </Routes>
     </BrowserRouter>
   );

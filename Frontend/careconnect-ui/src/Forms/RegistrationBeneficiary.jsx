@@ -2,7 +2,7 @@
 import "../CSS/index.css";
 import { useState } from "react";
 
-export const FinalBeneficiary = () => {
+export const RegistrationBeneficiary = () => {
   // State management
   const [user, setUser] = useState({
     BeneficiaryType: "",
