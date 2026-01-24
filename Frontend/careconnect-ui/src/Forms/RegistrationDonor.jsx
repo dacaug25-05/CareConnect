@@ -84,7 +84,8 @@ export const RegistrationDonor = () => {
 
   return (
     <form onSubmit={handleFormSubmit}>
-      <div className="container">
+      <div>
+        
         <h2>Donor Registration</h2>
 
         {/* Donor Name */}
