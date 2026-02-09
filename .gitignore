@@ -1,0 +1,64 @@
+# ======================
+# OS FILES
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE / EDITORS
+# ======================
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ======================
+# ENV / SECRETS
+# ======================
+.env
+.env.*
+!*.example
+application-local.yml
+application-dev.yml
+appsettings.Development.json
+
+# ======================
+# LOGS
+# ======================
+logs/
+*.log
+
+# ======================
+# NODE.JS (Backend + Frontend)
+# ======================
+node_modules/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ======================
+# FRONTEND BUILDS
+# ======================
+dist/
+build/
+.next/
+
+# ======================
+# SPRING BOOT / JAVA
+# ======================
+target/
+*.class
+
+# ======================
+# .NET
+# ======================
+bin/
+obj/
+TestResults/
